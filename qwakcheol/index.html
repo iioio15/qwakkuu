@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta htp-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta property="og:type" content="website">
+    <!--    <meta property="og:url" content="http://valgrant.xyz/?token=b0bd7775a7afb3f85cfa45ec86ccb06ffd575c77">-->
+
+
+	
+		<!----------------------------------------------- 박스 내용 개발 ----------------------------------------------->
+
+
+    <meta property="og:title" content="전은지님의 위조민증">  
+
+
+		<!----------------------------------------------- 박스 내용 개발 ----------------------------------------------->
+
+
+    <meta property="og:image" content="mobile_icon_!.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+	
+    <link rel="apple-touch-icon" sizes="152x152" href="https://play-lh.googleusercontent.com/_ki_xbYoNgr475A2EJKb5YQJjwi3FHZcyDNKtyDemEZjZaMMiE8vF29czk8wxO3tvg">
+  
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/_ki_xbYoNgr475A2EJKb5YQJjwi3FHZcyDNKtyDemEZjZaMMiE8vF29czk8wxO3tvg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font_SJSejongGothic.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="jquery.js"></script>
+
+    <title>정부24</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&family=IBM+Plex+Sans+KR:wght@500&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        // F12 버튼 방지
+        $(document).ready(function(){
+            $(document).bind('keydown',function(e){
+                if (e.keyCode) {
+                    e.preventDefault();
+                    e.returnValue = false;
+                }
+            });
+        });
+        
+        // 우측 클릭 방지
+        document.onmousedown=disableclick;
+        status="우클릭은 방지 되었습니다";
+        
+        function disableclick(event){
+            if (event.button==2) {
+                alert(status);
+                return false;
+            }
+        }
+    </script>
+</head>
+<body cz-shortcut-listen="true">
+    <!-- 로딩 화면 스타일 -->
+    <style>
+        /* 로딩 화면 스타일 */
+        #loading-screen {
+            position: fixed;
+            top: 0px;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(191, 227, 253, 1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        #loading-screen img {
+            width: 100%; /* 로딩 이미지 크기 */
+            max-width: 600px; /* 최대 크기 */
+            object-fit: contain;
+        }
+    </style>
+
+</head>
+<body cz-shortcut-listen="true">
+    
+    <!-- 로딩 화면 -->
+    <div id="loading-screen">
+        <img src="https://kmgfid123.vercel.app/loading-image.jpg" alt="로딩 중...">
+    </div>
+
+    <div class="header">
+	<div style="float: left">
+		<img src="https://kmgfid123.vercel.app/mark.png" style="margin-top: 10px;">
+		<h2 style="margin-left: 18%; margin-top: -21%; width: 80px;"><p style="font-size: 16px">정부24</p></h2>
+	</div>
+		<div style="float: left">
+        		<img src="https://kmgfid123.vercel.app/icon.png" style="margin-left: 15%; width: 40px; height: 40px;">
+		</div>
+        <h2 style="margin-left: 2%;"><p style="font-size: 16px;">주민등록증 모바일 확인서비스</p></h2>
+        <div class="header_list" style="margin-left: 2%;">
+            <bd>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+                </svg>
+            </bd>
+        </div>
+    </div>
+
+
+
+    <hr color="#ddeaf3">
+    <div id="wrap" class="">
+        <div id="box" class="box_main">
+            <img src="facephoto.jpg"style="width:140px; height:175px;">
+            <br>
+            <br>
+
+
+
+		
+		<!----------------------------------------------- 박스 내용 개발 ----------------------------------------------->
+
+
+            <h1>전은지</h1>
+            <h3 style="font-size:16px;">대전광역시 대덕구</h3>
+
+
+		<!----------------------------------------------- 박스 내용 개발 ----------------------------------------------->
+            <div class="QR_Code">
+                <img style="margin-left:60%; margin-top:-20%;" id="QR_img" src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=IDM3aSeEY5EhFP4sDbWiM%3D2BBi1XA8vXmAQBKHgHhFP4sDbWiM%3D">
+            </div>
+	    
+
+
+
+
+
+		<progress value="15" max="30" id="jb"></progress>
+	    <div>
+        	<p class="progressbar_text" style="font-size: 12pt;">남은시간</p>
+		<p class="progressbar_time" style="font-size: 12pt; margin-left:210px">30초</p>
+	    </div>
+	    <p class="QR_text" style="font-size: 9pt; color: gray; margin-left: 26%; margin-top: -3%;" >QR코드를 리더기에 스캔하세요</p>
+	    <p id="current-time" style="font-size: 12pt; color: gray; text-align: center; margin-top: -2%;"></p>
+            <div class="box_footer">
+                <p class="js-click-modal" style="margin-top:5px;">상세정보 표시</p>
+            </div>
+        </div>
+
+        <div class="modal" style="display: none;">
+
+            <div id="box">
+
+
+
+
+		    
+
+                <img src="https://i.postimg.cc/63ydgdVY/Kakao-Talk-20250326-230910897.jpg" style="width:140px; height:175px;">
+		<!----------------------------------------------- 박스 내용 개발 ----------------------------------------------->
+
+
+                <h1>전은지</h1>
+
+
+		<!----------------------------------------------- 박스 내용 개발 ----------------------------------------------->
+	        <div class="wrapper" style="margin-left:75%; margin-top:-9%;">
+  	            <input type="checkbox" id="switch" hidden onchange="updateText()">
+  		    <label for="switch" class="switch_label">
+    		        <span class="onf_btn"></span>
+  		    </label>
+                 </div>
+                <h2 style="font-size:22px; font-family:'SJ세종고딕'";>
+			010514-<span id="idNumber" style="color:#2c2c2c; font-size:22px;">*******</span>
+		</h2>
+                <h3 style="font-size:16px;">
+			대전광역시 대덕구<span id="userLocation" style="font-size:16px;">ㅤ<br>ㅤ</span>
+		</h3>
+                	<h4 style="margin-left:41%; font-size:16px;">
+			        2023.07.14
+		        </h4>
+		    <div style="display: flex; justify-content: center; align-items: center;">
+     		    	<p style="font-weight: bold; font-size: 16px; margin-top:5px; color:#4F4F4F;">대전광역시 대덕구청장</p>
+		    </div>
+
+		<!----------------------------------------------- 박스 내용 개발 ----------------------------------------------->
+
+
+
+		    
+            </div>
+
+            <div class="back" style="align-items:center; display: flex; justify-content:center;">
+                <bd><svg xmlns="http://www.w3.org/2000/svg" width="32" height="29" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 18 14">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
+                </svg></bd>
+            </div>
+        </div>
+
+        <div id="footer">
+            <marquee behavior="scroll" direction="left" scrollamount="4"><p style="font-size:11px;">주민등록증 이미지 위&middot;변조 및 부정 사용 금지 (위반시 3년 이하의 징역 또는 3천만원 이하의 벌금)ㅤ주민등록증 이미지 위&middot;변조 및 부정 사용 금지 (위반시 3년 이하의 징역 또는 3천만원 이하의 벌금)ㅤ주민등록증 이미지 위&middot;변조 및 부정 사용 금지 (위반시 3년 이하의 징역 또는 3천만원 이하의 벌금)ㅤ주민등록증 이미지 위&middot;변조 및 부정 사용 금지 (위반시 3년 이하의 징역 또는 3천만원 이하의 벌금)ㅤ주민등록증 이미지 위&middot;변조 및 부정 사용 금지 (위반시 3년 이하의 징역 또는 3천만원 이하의 벌금)ㅤ주민등록증 이미지 위&middot;변조 및 부정 사용 금지 (위반시 3년 이하의 징역 또는 3천만원 이하의 벌금)ㅤ주민등록증 이미지 위&middot;변조 및 부정 사용 금지 (위반시 3년 이하의 징역 또는 3천만원 이하의 벌금)</p></marquee>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript">
+    // 모바일 웹 주소창 숨기기
+    window.addEventListener('load', function() {}, false);
+</script>
+<script>
+function updateTime() {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = String(now.getMonth() + 1).padStart(2, '0'); // 월 (0부터 시작하므로 +1)
+    const day = String(now.getDate()).padStart(2, '0'); // 일
+    const hours = String(now.getHours()).padStart(2, ''); // 시
+    const minutes = String(now.getMinutes()).padStart(2, '0'); // 분
+    const seconds = String(now.getSeconds()).padStart(2, '0'); // 초
+
+    // 날짜 및 시간 형식 지정
+    const formattedTime = `${year}년${month}월${day}일 ${hours}:${minutes}:${seconds}`;
+
+    // HTML 업데이트
+    document.getElementById("current-time").innerText = formattedTime;
+}
+
+// 최초 실행 후 1초마다 갱신
+updateTime();
+setInterval(updateTime, 1000);
+		<!----------------------------------------------- 박스 내용 개발 ----------------------------------------------->
+    // 체크박스 상태에 따른 텍스트 변경 함수
+    function updateText() {
+        var checkbox = document.getElementById("switch");
+        var idNumber = document.getElementById("idNumber");
+
+        if (checkbox.checked) {
+            idNumber.innerHTML = "4403711"; // 체크박스가 선택되면 원래 값
+	    userLocation.innerHTML = " 계족산로 136<br>502동 1403호ㅤ ";
+        } else {
+            idNumber.innerHTML = "*******"; // 체크박스가 선택되지 않으면 별표로 변경
+	    userLocation.innerHTML = "ㅤ<br>ㅤ";
+        }
+    }
+		<!----------------------------------------------- 박스 내용 개발 ----------------------------------------------->
+    $(document).ready(function(){
+        $(".js-click-modal").click(function(){
+            document.querySelector('.box_main').style.display = 'none';
+            document.querySelector('.modal').style.display = 'block';
+        });
+
+        $(".back").click(function(){
+            document.querySelector('.box_main').style.display = 'block';
+            document.querySelector('.modal').style.display = 'none';
+        });
+
+        let count = 31;
+        setInterval(() => {
+            document.querySelector('.progressbar_time').textContent = `${count}초`
+            document.querySelector('#jb').value = count
+            count -= 1
+            if(count <= 0) {
+                count = 30;
+            }
+        }, 1000);
+
+        setTimeout(function() {
+            document.getElementById('loading-screen').style.display = 'none';
+        }, 2000);
+    });
+
+document.documentElement.addEventListener('touchstart', function (event) {
+     if (event.touches.length > 1) {
+          event.preventDefault(); 
+        } 
+    }, false);
+
+var lastTouchEnd = 0; 
+
+document.documentElement.addEventListener('touchend', function (event) {
+     var now = (new Date()).getTime();
+     if (now - lastTouchEnd <= 300) {
+          event.preventDefault(); 
+        } lastTouchEnd = now; 
+    }, false);
+</script>
+
+</body>
+</html>
